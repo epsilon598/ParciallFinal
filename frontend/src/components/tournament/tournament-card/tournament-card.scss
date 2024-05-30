@@ -1,0 +1,39 @@
+.tournament-card {
+    width: 36rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s;
+    
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    .image-container {
+        padding: 1rem;
+        max-width: 10rem;
+    }
+
+    .tournament-image {
+        max-width: 10rem;
+        max-height: 10rem;
+        margin-left: 20px;
+        object-fit: cover;
+        border-radius: 0.25rem;
+    }
+
+    .button-group {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+
+        .btn {
+            margin-right: 0.5rem;
+        }
+    }
+
+    #collapse-text {
+        margin-top: 1rem;
+    }
+}

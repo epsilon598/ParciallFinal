@@ -1,0 +1,28 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.profile-card .btn {
+    width: 30%;
+}
+
+.profile-card .btn + .btn {
+    margin-left: 0.5rem;
+}
